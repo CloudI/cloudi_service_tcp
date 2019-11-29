@@ -3,7 +3,7 @@ defmodule CloudIServiceTcp do
 
   def project do
     [app: :cloudi_service_tcp,
-     version: "1.7.5",
+     version: "1.8.0",
      language: :erlang,
      erlc_options: [
        :debug_info,
@@ -26,7 +26,7 @@ defmodule CloudIServiceTcp do
   end
 
   defp deps do
-    [{:cloudi_core, "~> 1.7.5"}]
+    [{:cloudi_core, "~> 1.8.0"}]
   end
 
   defp description do
