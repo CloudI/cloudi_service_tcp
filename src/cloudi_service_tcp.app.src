@@ -3,7 +3,7 @@
 
 {application, cloudi_service_tcp, 
   [{description, "TCP CloudI Service"},
-   {vsn, "2.0.0"},
+   {vsn, "2.0.1"},
    {modules, [
         cloudi_service_tcp
         ]},

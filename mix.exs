@@ -3,7 +3,7 @@ defmodule CloudIServiceTcp do
 
   def project do
     [app: :cloudi_service_tcp,
-     version: "2.0.0",
+     version: "2.0.1",
      language: :erlang,
      erlc_options: [
        :debug_info,
@@ -26,7 +26,7 @@ defmodule CloudIServiceTcp do
   end
 
   defp deps do
-    [{:cloudi_core, "~> 2.0.0"}]
+    [{:cloudi_core, "~> 2.0.1"}]
   end
 
   defp description do
@@ -34,7 +34,7 @@ defmodule CloudIServiceTcp do
   end
 
   defp package do
-    [files: ~w(src doc rebar.config README.markdown),
+    [files: ~w(src doc rebar.config README.markdown LICENSE),
      maintainers: ["Michael Truog"],
      licenses: ["MIT"],
      links: %{"Website" => "https://cloudi.org",
